@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(243, 232, 242);
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 225px;
+}
+.heading1{
+    font-size: larger;
+    color: rgb(165, 94, 165);
+    margin-bottom: 30px;   
+}
+.container hr{
+width:55vw;
+padding-left: 200px;
+}
+.heading2{
+    font-size: larger;
+    color: rgb(128, 3, 128);
+    padding-top: 3px;
+    width: 10px;
+}
+.one{
+    text-align: center;
+}
+#scoreCard{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color:lightgoldenrodyellow;
+}
+#scoreCard th, td {
+    border: 2px solid black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+   
+  }
+#scoreCard a{
+    color: black;
+    text-decoration: none;
+}
+#scoreCard a:hover{
+    color:rgb(105, 12, 105);
+}
+
+tr,th{
+    padding: 20px;
+}
+th{
+    background-color: rgb(239, 169, 192);
+}
